@@ -11,6 +11,7 @@
 
     <form action="<?= base_url('Buku/simpan_edit') ?>" method="POST">
         <table>
+        <!-- mengedit data berdasar id -->
         <td><input hidden type="text" name="id" value="<?= $buku->id ?>"></td>
             <tr>
                 <td>Judul Buku</td>
